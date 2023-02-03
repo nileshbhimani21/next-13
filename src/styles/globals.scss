@@ -1,0 +1,19 @@
+@import './base.scss';
+@import './components.scss';
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  @apply bg-gray-200 text-base
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
