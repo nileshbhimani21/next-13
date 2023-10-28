@@ -64,3 +64,49 @@
     "node_modules"
   ]
 }
+// {
+//   "compilerOptions": {
+//     "target": "es2017",
+//     "lib": ["dom", "dom.iterable", "esnext"],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "strict": true,
+//     "strictNullChecks": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "noEmit": true,
+//     "esModuleInterop": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "noImplicitAny": false,
+//     "jsx": "preserve",
+//     "baseUrl": "./src/",
+//     "paths": {
+//       "components/*": ["./components/*"],
+//       "constants/*": ["./constants/*"],
+//       "context/*": ["./context/*"],
+//       "layout/*": ["./layout/*"],
+//       "pages/*": ["./pages/*"],
+//       "scripts/*": ["./scripts/*"],
+//       "services/*": ["./services/*"],
+//       "styles/*": ["./styles/*"],
+//       "theme/*": ["./theme/*"],
+//       "types/*": ["./types/*"],
+//       "utils/*": ["./utils/*"],
+//       "views/*": ["./views/*"]
+//     },
+//     "incremental": true
+//   },
+//   "include": [
+//     "next-env.d.ts",
+//     "src/***/**/*.ts",
+//     "src/***/**/*.tsx",
+//     "src/**/*.ts",
+//     "src/**/*.tsx",
+//     "src/declarations.d.ts",
+//     "src/types/next-auth.d.ts"
+
+//   ],
+//   "exclude": ["node_modules"]
+// }
