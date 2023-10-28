@@ -7,14 +7,14 @@ trailingSlash: true,
   experimental: {
     appDir: true,
   },
-images: {
-    domains: [process.env.NEXT_PUBLIC_ALLOWED_IMAGE_DOMAINS],
-  },
-webpack: (config) => {
-    config.experiments = config.experiments || {}
-    config.experiments.topLevelAwait = true
-    return config
-  },
+//images: {
+  // domains: [process.env.NEXT_PUBLIC_ALLOWED_IMAGE_DOMAINS],
+ // },
+//webpack: (config) => {
+   // config.experiments = config.experiments || {}
+   // config.experiments.topLevelAwait = true
+  //  return config
+//  },
 }
 
 module.exports = nextConfig
